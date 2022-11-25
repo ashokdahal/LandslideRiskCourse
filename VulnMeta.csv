@@ -1,0 +1,17 @@
+id,hazard_type,hazard_intensity,type,ear_type,source,description,file,ear_class,name,region
+1,LSS,Susceptibility,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,Masonary 1 Floor,MA1,Test
+2,LSS,Susceptibility,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,Masonary 2 Floor,MA2,Test
+3,LSS,Susceptibility,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,Masonary 3 Floor,MA3,Test
+4,LSS,Susceptibility,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,RCC 1 Floor,RC1,Test
+5,LSS,Susceptibility,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,RCC 2 Floor,RC2,Test
+6,LSS,Susceptibility,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,RCC 3 Floor,RC3,Test
+7,LSS,Susceptibility,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,RCC 4 Floor,RC4,Test
+8,LSS,Susceptibility,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,Wooden 1 Floor,WO1,Test
+9,LSV,Velocity,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,Masonary 1 Floor,MA1,Test
+10,LSV,Velocity,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,Masonary 2 Floor,MA2,Test
+11,LSV,Velocity,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,Masonary 3 Floor,MA3,Test
+12,LSV,Velocity,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,RCC 1 Floor,RC1,Test
+13,LSV,Velocity,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,RCC 2 Floor,RC2,Test
+14,LSV,Velocity,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,RCC 3 Floor,RC3,Test
+15,LSV,Velocity,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,RCC 4 Floor,RC4,Test
+16,LSV,Velocity,Physical,Building Footprints,Undifined,Vulnerability data for test case,Undefined,Wooden 1 Floor,WO1,Test
