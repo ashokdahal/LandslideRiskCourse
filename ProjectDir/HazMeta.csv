@@ -1,5 +1,5 @@
 id,rp_avg,representation_year,rp_max,scenario,filedir,file_name,alternative,intensity,name,type,unit,rp_min,rp_std,sp_map,sp_val,layer_name,geom_type,data_id,base_val,interval_val,threshold_val
-1,20,2020,20,S0,/home/jovyan/private/LandslideRisk Course/LandslideRiskCourse/ProjectDir/Dataset/Velocity,DF_IP_20_A0.tif,A0,Velocity,landslides,LSV,m/s,,,,1,,,,0.5,1,10
-2,50,2020,50,S0,/home/jovyan/private/LandslideRisk Course/LandslideRiskCourse/ProjectDir/Dataset/Velocity,DF_IP_50_A0.tif,A0,Velocity,landslides,LSV,m/s,,,,1,,,,0.5,1,10
-3,100,2020,100,S0,/home/jovyan/private/LandslideRisk Course/LandslideRiskCourse/ProjectDir/Dataset/Velocity,DF_IP_100_A0.tif,A0,Velocity,landslides,LSV,m/s,,,,1,,,,0.5,1,10
-4,200,2020,200,S0,/home/jovyan/private/LandslideRisk Course/LandslideRiskCourse/ProjectDir/Dataset/Velocity,DF_IP_200_A0.tif,A0,Velocity,landslides,LSV,m/s,,,,1,,,,0.5,1,10
+1,20,2020,20,S0,/home/jovyan/private/LSR/LandslideRiskCourse/ProjectDir/Dataset/Velocity,DF_IP_20_A0.tif,A0,Velocity,landslides,LSV,m/s,,,,1,,,,0.5,1,10
+2,50,2020,50,S0,/home/jovyan/private/LSR/LandslideRiskCourse/ProjectDir/Dataset/Velocity,DF_IP_50_A0.tif,A0,Velocity,landslides,LSV,m/s,,,,1,,,,0.5,1,10
+3,100,2020,100,S0,/home/jovyan/private/LSR/LandslideRiskCourse/ProjectDir/Dataset/Velocity,DF_IP_100_A0.tif,A0,Velocity,landslides,LSV,m/s,,,,1,,,,0.5,1,10
+4,200,2020,200,S0,/home/jovyan/private/LSR/LandslideRiskCourse/ProjectDir/Dataset/Velocity,DF_IP_200_A0.tif,A0,Velocity,landslides,LSV,m/s,,,,1,,,,0.5,1,10

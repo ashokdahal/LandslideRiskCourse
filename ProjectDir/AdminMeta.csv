@@ -1,2 +1,2 @@
 id,name,description,admin_level,filedir,filename,layer_name,workspace,geom_type,data_id
-1,AdminUnit,Admin unit test arrea,district,/home/jovyan/private/LandslideRisk Course/LandslideRiskCourse/ProjectDir/Dataset/AdminUnit,admin_units.shp,,,,ADMIN_UNITS
+1,AdminUnit,Admin unit test arrea,district,/home/jovyan/private/LSR/LandslideRiskCourse/ProjectDir/Dataset/AdminUnit,admin_units.shp,,,,ADMIN_UNITS

@@ -1,2 +1,2 @@
 id,representation_year,data_id,filedir,filename,alternative,col_area,col_class,col_length,col_population_avg,col_population_max,col_population_min,col_population_std,col_value_avg,col_value_max,col_value_min,col_value_std,name,scenario,type,geometry_unit,population_unit,value_unit,layer_name,workspace,geom_type
-1,2020,BU,/home/jovyan/private/LandslideRisk Course/LandslideRiskCourse/ProjectDir/Dataset/EAR,BU_2020_A2_S0.shp,A0,AREA,TYPE,,PEOPLE,,,,VALUE,,,,Building,S0,TYPE,Polygon,count,usd,,,
+1,2020,BU,/home/jovyan/private/LSR/LandslideRiskCourse/ProjectDir/Dataset/EAR,BU_2020_A2_S0.shp,A0,AREA,TYPE,,PEOPLE,,,,VALUE,,,,Building,S0,TYPE,Polygon,count,usd,,,
