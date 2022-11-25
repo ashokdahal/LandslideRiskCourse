@@ -118,6 +118,7 @@ def ComputeLoss(con, exposureid, lossid, computecol='counts', **kwargs):
         adminpk = adminmeta.data_id[0]
         admin_dataid = adminmeta.data_id[0]
         ear = readvector.readear(con, earid)
+        ear[earpk]=ear[earpk].astype(np.int64)
         loss = pd.merge(left=loss, right=ear[[
                         earpk, 'geom']], left_on='geom_id', right_on=earpk, right_index=False)
         loss = gpd.GeoDataFrame(loss, geometry='geom')

@@ -2,6 +2,7 @@ import geopandas as gpd
 from . import readmeta
 import psycopg2
 import pandas as pd
+import numpy as np
 
 
 def readear(connstr, earid):
@@ -52,6 +53,9 @@ def prepareExposureForLoss(connstr, exposureid):
     exposuredata = readexposure(connstr, exposureid, schema)
     eardatageom = readear(connstr, earid)
     eardata = pd.DataFrame(eardatageom.drop(columns='geom'))
+    eardata[pk]=eardata[pk].astype(np.int64)
+    #print(eardata.dtypes)
+    
     exposure_all = pd.merge(left=exposuredata, right=eardata, how='left', left_on=[
                             'geom_id'], right_on=[pk])
     assert not exposure_all.empty, f"The exposure data  {exposureid} returned empty from database"

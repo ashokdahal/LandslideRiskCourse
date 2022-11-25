@@ -36,7 +36,7 @@ def exposuremeta(connstr,exposureid):
     except :
         print("unable to Exposure Metadata")
         raise ValueError("unable to find metadata table")
-    metatable=df[df.id==exposureid]
+    metatable=df[df.id==exposureid].reset_index()
     assert not metatable.empty , f"The exposure id {exposureid} do not exists"
     return metatable
 
@@ -53,6 +53,7 @@ def loadspprob(connstr,hazardid):
 def computeloss_meta(connstr,exposureid):
     #get it from exposure
     meta=exposuremeta(connstr,exposureid)
+    print(meta.admin_unit_id[0])
     adminid=meta.admin_unit_id[0]
     exposureTable=meta.exposure_table[0]
     earID=meta.ear_index_id[0]
